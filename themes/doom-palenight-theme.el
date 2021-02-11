@@ -101,6 +101,8 @@ Can be an integer to determine the exact padding."
 
    (fringe :background base2)
 
+   (hl-line :background base2)
+
    ;; --- major-mode faces ------------------------
    ;; man-mode
    (Man-overstrike :inherit 'bold :foreground magenta)
