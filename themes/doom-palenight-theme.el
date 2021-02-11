@@ -107,7 +107,14 @@ Can be an integer to determine the exact padding."
    (Man-underline :inherit 'underline :foreground blue)
 
    ;; org-mode
-   ((org-block &override) :background base2)
+   ((org-level-1 &override) :background bg-alt :extend t :foreground yellow  :height 130)
+   ((org-level-2 &override) :background bg-alt :extend t :foreground green   :height 130)
+   ((org-level-3 &override) :background bg-alt :extend t :foreground red     :height 120)
+   ((org-level-4 &override) :background bg-alt :extend t :foreground teal    :height 120)
+   ((org-level-5 &override) :background bg-alt :extend t :foreground cyan    :height 110)
+   ((org-level-6 &override) :background bg-alt :extend t :foreground blue    :height 110)
+   ((org-level-7 &override) :background bg-alt :extend t :foreground magenta :height 110)
+   ((org-level-8 &override) :background bg-alt :extend t :foreground orange  :height 110)
    ((org-block-background &override) :background base2)
    ((org-block-begin-line &override) :background base2)
 
