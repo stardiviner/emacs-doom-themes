@@ -86,11 +86,11 @@ Can be an integer to determine the exact padding."
 
    (mode-line
     :background modeline-bg :foreground modeline-fg
-    :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg)))
+    :box (if -modeline-pad `(:line-width ,-modeline-pad :color "#717CB4")))
 
    (mode-line-inactive
     :background modeline-bg-alt :foreground modeline-fg-alt
-    :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg-alt)))
+    :box (if -modeline-pad `(:line-width ,-modeline-pad :color "#3C435E")))
 
    (solaire-mode-line-face
     :background modeline-bg :foreground modeline-fg
