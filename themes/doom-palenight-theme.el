@@ -174,6 +174,15 @@ Can be an integer to determine the exact padding."
    (rjsx-attr :foreground yellow :slant 'italic :weight 'medium)
 
    ;; tooltip
-   (tooltip              :background (doom-darken bg-alt 0.2) :foreground fg)))
+   (tooltip              :background (doom-darken bg-alt 0.2) :foreground fg)
+
+   ;; mu4e
+   (mu4e-header-face :foreground base5)
+   (mu4e-unread-face :foreground teal)
+   (mu4e-replied-face :foreground base2 :background yellow :extend t)
+   (mu4e-flagged-face :foreground base2 :background red :extend t)
+   (mu4e-header-highlight-face :foreground base2 :background base7 :weight 'bold :extend t)
+   (mu4e-header-mark-face :foreground base2 :background blue :extend t)
+   ))
 
 (provide 'doom-palenight-theme)
