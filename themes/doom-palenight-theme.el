@@ -109,6 +109,9 @@ Can be an integer to determine the exact padding."
    (Man-underline :inherit 'underline :foreground blue)
 
    ;; org-mode
+   (org-document-title :foreground blue :height 200)
+   (org-document-info-keyword  :foreground base7)
+   (org-document-info  :foreground base5)
    ((org-level-1 &override) :background bg-alt :extend t :foreground yellow  :height 130)
    ((org-level-2 &override) :background bg-alt :extend t :foreground teal    :height 130)
    ((org-level-3 &override) :background bg-alt :extend t :foreground cyan    :height 120)
@@ -117,8 +120,18 @@ Can be an integer to determine the exact padding."
    ((org-level-6 &override) :background bg-alt :extend t :foreground green   :height 110)
    ((org-level-7 &override) :background bg-alt :extend t :foreground red     :height 110)
    ((org-level-8 &override) :background bg-alt :extend t :foreground orange  :height 110)
+   (org-date :foreground dark-cyan)
+   (org-verbatim :foreground teal)
+   (org-code :foreground green)
+   (org-checkbox :foreground base6)
+   (org-checkbox-statistics-todo :foreground base7)
+   (org-checkbox-statistics-done :foreground base4)
+   (org-property-value :foreground base8)
+   (org-drawer :foreground base5)
+   ((org-link &override) :foreground magenta)
    ((org-block-background &override) :background base2)
    ((org-block-begin-line &override) :background base2)
+   (org-table :foreground blue)
 
    ;; --- plugin faces -------------------
    ;; css-mode / scss-mode
