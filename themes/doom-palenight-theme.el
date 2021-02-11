@@ -137,6 +137,11 @@ Can be an integer to determine the exact padding."
    ((org-block-begin-line &override) :background base2)
    (org-table :foreground blue)
 
+   ;; org-transclusion
+   (org-transclusion-block :background base3)
+   (org-transclusion-source-block :background base5)
+   (org-transclusion-keyword :background base3)
+
    ;; --- plugin faces -------------------
    ;; css-mode / scss-mode
    (css-proprietary-property :foreground orange)
