@@ -101,7 +101,11 @@ Can be an integer to determine the exact padding."
 
    (fringe :background base2)
 
-   (hl-line :background base2)
+   ;; hl-line-mode
+   (hl-line :background base2 :extend t)
+
+   ;; hl-sexp
+   (hl-sexp-face :background base3 :extend t)
 
    ;; --- major-mode faces ------------------------
    ;; man-mode
