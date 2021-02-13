@@ -27,7 +27,7 @@ Can be an integer to determine the exact padding."
    (base5      '("#676E95" "#585858" "brightblack"))
    (base6      '("#697098" "#626262" "brightblack"))
    (base7      '("#717CB4" "#767676" "brightblack"))
-   (base8      '("#A6Accd" "#a8a8a8" "white"))
+   (base8      '("#A6ACCD" "#a8a8a8" "white"))
    (fg         '("#EEFFFF" "#e4e4e4" "brightwhite"))
    (fg-alt     '("#BFC7D5" "#bcbcbc" "white"))
 
@@ -61,7 +61,7 @@ Can be an integer to determine the exact padding."
    (strings        green)
    (variables      yellow)
    (numbers        orange)
-   (region         base3)
+   (region         base4)
    (error          red)
    (warning        yellow)
    (success        green)
@@ -133,8 +133,9 @@ Can be an integer to determine the exact padding."
    (org-property-value :foreground base8)
    (org-drawer :foreground base5)
    ((org-link &override) :foreground magenta)
-   ((org-block-background &override) :background base2)
+   ((org-block &override) :background base3)
    ((org-block-begin-line &override) :background base2)
+   ((org-block-end-line &override) :background base2)
    (org-table :foreground blue)
 
    ;; org-transclusion
