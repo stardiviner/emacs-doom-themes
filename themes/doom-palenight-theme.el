@@ -132,7 +132,7 @@ Can be an integer to determine the exact padding."
    (org-checkbox-statistics-done :foreground base4)
    (org-property-value :foreground base8)
    (org-drawer :foreground base5)
-   ((org-link &override) :foreground magenta)
+   ((org-link &override) :foreground magenta :underline t)
    ((org-block &override) :background base3)
    ((org-block-begin-line &override) :background base2)
    ((org-block-end-line &override) :background base2)
