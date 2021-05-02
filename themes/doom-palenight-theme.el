@@ -101,6 +101,9 @@ Can be an integer to determine the exact padding."
 
    (fringe :background base2)
 
+   ;; Ivy
+   (ivy-current-match :background base5)
+
    ;; hl-line-mode
    (hl-line :background base2 :extend t)
 
